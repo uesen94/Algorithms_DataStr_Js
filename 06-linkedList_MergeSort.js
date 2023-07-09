@@ -1,3 +1,6 @@
+// Takes O(n log n) time
+// Takes O(n) space
+
 class ListNode {
   constructor(val) {
     this.val = val;
