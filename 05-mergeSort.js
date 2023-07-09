@@ -3,7 +3,7 @@
 // divide:find the midpoint of the list and divide into sublists
 // conquer: recursively sort the sublists created in prev step
 // combine: merge the sorted sublists created in previous step
-// Time Complexity: O(n log n) time
+// Time Complexity: O(n log n) time 
 
 function mergeSort(arr) {
 
