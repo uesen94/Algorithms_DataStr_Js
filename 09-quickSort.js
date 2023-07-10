@@ -14,7 +14,7 @@
      const right= [];
      
 
-     for (let i=0; i<=numbers.length; i++){
+     for (let i=0; i<numbers.length; i++){
          if(i === pivotIndex){
              continue;
          }
@@ -33,7 +33,9 @@
      const sortedLeft=quickSort(left);
      const sortedRight=quickSort(right);
 
-     return [ ...sortedLeft, pivot, ...sortedRight];
+     //return [ ...sortedLeft, pivot, ...sortedRight];
+     //or
+     return sortedLeft.concat(pivot,sortedRight);
  }
 
 
