@@ -45,3 +45,10 @@
  var testedValues=[3,5,1,2,4,2];
  var sorted=quickSort(testedValues);
  console.log(sorted);
+
+//extra code to calculate the execution time.
+//conclusion: faster than selection sort algorithm
+console.time('timer1');
+console.timeEnd('timer1'); // this prints times on the console
+console.profile('profile1');
+console.profileEnd('profile1');
