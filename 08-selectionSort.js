@@ -3,9 +3,16 @@
 
 function selectionSort(arr) {
     var sortedArray=[];
+
+    //before displacement process
+    console.log(arr,sortedArray);
+    
     while(arr.length>0){
         var indexToMove=indexOfMin(arr);
         sortedArray.push(arr.splice(indexToMove,1)[0]); //take min elements from arr to sortedArray with push method one by one.
+
+        //after displacement process
+        console.log(arr,sortedArray);
     }
     return sortedArray;
 }
