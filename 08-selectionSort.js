@@ -31,7 +31,7 @@ const numbers=[29, 100, 1, 2, 57, 28, 88, 3, 50, 67, 37, 1, 32, 20];
 const sorted=selectionSort(numbers);
 console.log(sorted);
 
-//for extra code to calculate the execution time.
+//extra code to calculate the execution time.
 console.time('timer1');
 console.timeEnd('timer1'); // this prints times on the console
 console.profile('profile1');
