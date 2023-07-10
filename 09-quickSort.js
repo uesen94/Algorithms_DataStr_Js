@@ -41,9 +41,7 @@
  }
 
 
-
-
- //testing
- var testedValues=[3,5,1,2,4];
+ //testing values
+ var testedValues=[3,5,1,2,4,2];
  var sorted=quickSort(testedValues);
  console.log(sorted);
