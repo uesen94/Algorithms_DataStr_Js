@@ -1,5 +1,5 @@
 //depends on divide and conquer(böl ve yönet)
-//complexity:O(logn), worst case O(log n^2)
+//complexity:best case O(nlogn), worst case O(log n^2)
 //selection of pivot element is crucial for effeciency
  //it will be roughly the radian of an array.
 
