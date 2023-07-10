@@ -1,4 +1,4 @@
-// big O Notation : O(log n)
+// Big O Notation : O(log n)
 
 function binarySearch(arr,target){
     let left=0;
