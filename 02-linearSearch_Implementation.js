@@ -1,3 +1,5 @@
+//Linear Search is a simpler and more straightforward choice
+        //if data is unsorted or the search operations are infrequent.
 // Big O Notation : O(n)
 
 function linearSearch(arr,key) {
