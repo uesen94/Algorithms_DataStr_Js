@@ -33,6 +33,8 @@
      const sortedLeft=quickSort(left);
      const sortedRight=quickSort(right);
 
+     //console.log(sortedLeft,pivot,sortedRight);
+
      //return [ ...sortedLeft, pivot, ...sortedRight];
      //or
      return sortedLeft.concat(pivot,sortedRight);
