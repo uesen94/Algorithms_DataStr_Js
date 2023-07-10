@@ -1,4 +1,3 @@
-// better option compare to binarySearch
 // Big O Notation : O(n)
 
 function linearSearch(arr,key) {
