@@ -1,4 +1,5 @@
-// better option compare to linearSearch
+// better option compare to linearSearch if
+    // data is sorted and  have a large collection with frequent search operations. 
 // Big O Notation : O(log n)
 
 function binarySearch(arr,target){
