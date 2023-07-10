@@ -1,4 +1,5 @@
 // better option compare to binarySearch
+// Big O Notation : O(n)
 
 function linearSearch(arr,key) {
         for(let i=0;i<=arr.length;i++){
